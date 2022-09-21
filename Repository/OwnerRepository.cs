@@ -12,24 +12,24 @@ namespace Repository
         {
         }
 
-        public IEnumerable<Owner> GetAllOwners()
+        public async Task<IEnumerable<Owner>> GetAllOwnersAsync()
         {
-            return FindAll()
+            return await FindAll()
                 .OrderBy(ow => ow.Name)
-                .ToList();
+                .ToListAsync();
         }
 
-        public Owner GetOwnerById(Guid ownerId)
+        public async Task<Owner> GetOwnerByIdAsync(Guid ownerId)
         {
-            return FindByCondition(owner => owner.Id.Equals(ownerId))
-                .FirstOrDefault();
+            return await FindByCondition(owner => owner.Id.Equals(ownerId))
+                .FirstOrDefaultAsync();
         }
 
-        public Owner GetOwnerWithDetails(Guid ownerId)
+        public async Task<Owner> GetOwnerWithDetailsAsync(Guid ownerId)
         {
-            return FindByCondition(owner => owner.Id.Equals(ownerId))
+            return await FindByCondition(owner => owner.Id.Equals(ownerId))
                 .Include(ac => ac.Accounts)
-                .FirstOrDefault();
+                .FirstOrDefaultAsync();
         }
 
         public void CreateOwner(Owner owner)
