@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "u/dTiX4/Y1M8vnm68kbKAD7+7m0iA5ver1F8mpEBqULeiYr6jBkaAvF4P9eH+Uf4omeZe6G/aEeGF4tp5Gj1ZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\AccountOwnerServer\\LoggerService\\LoggerService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\nlog.extensions.logging\\5.0.4\\nlog.extensions.logging.5.0.4.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
