@@ -12,39 +12,30 @@ namespace Repository
         {
         }
 
-        public async Task<IEnumerable<Owner>> GetAllOwnersAsync()
+        public IEnumerable<Owner> GetAllOwners()
         {
-            return await FindAll()
+            return FindAll()
                 .OrderBy(ow => ow.Name)
-                .ToListAsync();
+                .ToList();
         }
 
-        public async Task<Owner> GetOwnerByIdAsync(Guid ownerId)
+        public Owner GetOwnerById(Guid ownerId)
         {
-            return await FindByCondition(owner => owner.Id.Equals(ownerId))
-                .FirstOrDefaultAsync();
+            return FindByCondition(owner => owner.Id.Equals(ownerId))
+                .FirstOrDefault();
         }
 
-        public async Task<Owner> GetOwnerWithDetailsAsync(Guid ownerId)
+        public Owner GetOwnerWithDetails(Guid ownerId)
         {
-            return await FindByCondition(owner => owner.Id.Equals(ownerId))
+            return FindByCondition(owner => owner.Id.Equals(ownerId))
                 .Include(ac => ac.Accounts)
-                .FirstOrDefaultAsync();
+                .FirstOrDefault();
         }
 
-        public void CreateOwner(Owner owner)
-        {
-            Create(owner);
-        }
+        public void CreateOwner(Owner owner) => Create(owner);
 
-        public void UpdateOwner(Owner owner)
-        {
-            Update(owner);
-        }
+        public void UpdateOwner(Owner owner) => Update(owner);
 
-        public void DeleteOwner(Owner owner)
-        {
-            Delete(owner);
-        }
+        public void DeleteOwner(Owner owner) => Delete(owner);
     }
 }

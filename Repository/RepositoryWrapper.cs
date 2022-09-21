@@ -8,7 +8,6 @@ namespace Repository
         private RepositoryContext _repoContext;
         private IOwnerRepository _owner;
         private IAccountRepository _account;
-
         public IOwnerRepository Owner
         {
             get
@@ -17,7 +16,6 @@ namespace Repository
                 {
                     _owner = new OwnerRepository(_repoContext);
                 }
-
                 return _owner;
             }
         }
@@ -30,7 +28,6 @@ namespace Repository
                 {
                     _account = new AccountRepository(_repoContext);
                 }
-
                 return _account;
             }
         }
@@ -39,10 +36,10 @@ namespace Repository
         {
             _repoContext = repositoryContext;
         }
-        
-        public void SaveAsync()
+
+        public void Save()
         {
-            _repoContext.SaveChangesAsync();
+            _repoContext.SaveChanges();
         }
     }
 }

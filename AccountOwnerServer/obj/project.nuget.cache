@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kkhgylO1vvoQ/oLONc1oC77gmhrjbY1j8LOHQrocnkhvn023iQkB0SHo19GLN0ao+hTfQq2QWCXo9x0ecIYMBw==",
+  "dgSpecHash": "Dhz1/DxpzCkBPZFl9E9yFEY/JSJBjkp5FEcilpqqn6EEqTr3kbaHOC63bCAOSsnzn2aC9IbefL4B3dR/dEaJng==",
   "success": true,
   "projectFilePath": "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\AccountOwnerServer\\AccountOwnerServer\\AccountOwnerServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
@@ -20,12 +21,14 @@
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\nlog.extensions.logging\\5.0.4\\nlog.extensions.logging.5.0.4.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\maloney_f\\Documents\\Westat\\examples\\Packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
